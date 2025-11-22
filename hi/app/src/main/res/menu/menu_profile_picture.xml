@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_view"
+        android:title="View Picture"/>
+    <item
+        android:id="@+id/action_upload"
+        android:title="Upload New Picture"/>
+</menu>
