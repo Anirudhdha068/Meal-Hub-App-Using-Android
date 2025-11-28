@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="todo">TODO</string>
+    <string name="log_in_to_your_account">Log In to your account</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    
+    <!-- Google Sign-In: Replace with your Web Client ID from Firebase Console -->
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_HERE</string>
+</resources>

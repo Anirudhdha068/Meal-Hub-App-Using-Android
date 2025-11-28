@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="@android:color/white">
+
+    <!-- Item Name -->
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Item Name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="start"/>
+
+    <!-- Quantity -->
+    <TextView
+        android:id="@+id/itemQty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginStart="8dp"/>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/itemRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="₹0"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="end"
+        android:layout_marginStart="8dp"/>
+
+    <!-- Delete Button -->
+    <ImageView
+        android:id="@+id/btnDeleteItem"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/ic_close"
+        android:background="@drawable/circle1_bc"
+        android:padding="6dp"
+        android:contentDescription="Remove item"
+        app:tint="@android:color/white"/>
+
+</LinearLayout>
